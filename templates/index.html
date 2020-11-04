@@ -1,0 +1,364 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/brands.css' %}">
+    <link rel="stylesheet" href="{% static 'css/brands.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/regular.css' %}">
+    <link rel="stylesheet" href="{% static 'css/regular.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/solid.css' %}">
+    <link rel="stylesheet" href="{% static 'css/solid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/query.css' %}">
+</head>
+<body>
+    
+    <div class="site-wrap">
+        <header>
+            <nav>
+                <div class="logo-cont">
+                    <a href="#" class="logo">T-CODES</a>
+                </div>
+            <div class="logo-list">
+                    <ul class="navlist">
+                        <li><a href="#services" class="navlink">OUR SERVICES</a></li>
+                        <li><a href="#team" class="navlink">OUR TEAM</a></li>
+                        <li><a href="#about-id" class="navlink">ABOUT US</a></li>
+                        <li><a href="#contact-id" class="navlink">CONTACT US</a></li>
+                        <li><a href="#testimonal" class="navlink">TESTIMONIAL</a></li>
+                        <li><a href="#" class="navlink">BLOG</a></li>
+                    </ul>
+            </div>
+                <div class="toggle">
+                    <div class="bars" id="bar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="times" id="times-toggle">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="social">
+            <a href="#"><p><i class="far fa-envelope"></i></p></a>
+        </div>
+
+        <section class="hero-section">
+            <div class="hero">
+                <h2 class="title">Welcome to T-CODES Digital Agency</h2>
+                <p class="text">This is T-CODES digital agency. We are a team of talented individuals,
+                    with different specialities. Contact us for design and development
+                    of any type of website ranging from E-COMMERCE, Educational, Blogs, Landing Page and many more.
+                </p>
+                <div class="footer">
+                    <a href="#contact-id" class="btn">CONTACT US</a>
+                    <a href="#" class="btn">READ MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-services" id="services">
+            <h2>OUR SERVICES</h2>
+            <div class="wrapper">
+                <div class="services">
+                    <div class="card">
+                        <div class="face face-1">
+                            <div class="content">
+                                <div class="icon-test">
+                                    <i class="fas fa-pen-alt"></i>
+                                </div>
+                                
+                                <p>WEBSITE CONTENT WRITING</p>
+                            </div>
+                        </div>
+                        <div class="face face-2">
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum deleniti, ea obcaecati non fugit impedit autem velit aut adipisci.</p>
+                                <a href="#">READ MORE</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <div class="face face-1">
+                            <div class="content">
+                                <div class="icon-test">
+                                    <i class="fas fa-tape"></i>
+                                </div>
+                                <p>UI/UX DESIGNS</p>
+                            </div>
+                        </div>
+                        <div class="face face-2">
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum deleniti, ea obcaecati non fugit impedit autem velit aut adipisci.</p>
+                                <a href="#">READ MORE</a>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <div class="face face-1">
+                            <div class="content">
+                                <div class="icon-test">
+                                    <i class="fas fa-adjust"></i>
+                                </div>
+                                <p>WEBSITE DESIGN</p>
+                            </div>
+                        </div>
+                        <div class="face face-2">
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum deleniti, ea obcaecati non fugit impedit autem velit aut adipisci.</p>
+                                <a href="#">READ MORE</a>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <h2 id="team">OUR TEAM</h2>
+        <div class="team-area">
+            <div class="single-team">
+                <img src="{% static 'img/tope.jpg' %}" alt="" id="tope">
+                <div class="team-text">
+                    <h2>Adesiyan Temitope</h2>
+                    <p>Fullstack Website Developer</p>
+                    <p>
+                        <a href="https://api.whatsapp.com/send?phone=2347038347584"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/temitope-adesiyan-2b3346162"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Temmy_web/"><i class="fab fa-twitter"></i></a>
+
+                    </p>
+                </div>
+            </div>
+            <div class="single-team">
+                <img src="{% static 'img/seyi.jpg' %}" alt="">
+                <div class="team-text">
+                    <h2>Olubanjo Oluseyi</h2>
+                    <p>UI/UX Expert<br>Graphics Designer</p>
+                    <p>
+                        <a href="https://api.whatsapp.com/send?phone=23435378842"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="single-team">
+                <img src="{% static 'img/lekan.jpg' %}" alt="">
+                <div class="team-text">
+                    <h2>Adeogun Lekan</h2>
+                    <p>Website Content Writer</p>
+                    <p>
+                        <a href="https://api.whatsapp.com/send?phone=2347034649569"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/layckornn_ade"><i class="fab fa-twitter"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-us" id="about-id">
+            <h2>ABOUT US</h2>
+            <div class="about-container">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, vitae est beatae quo 
+                        temporibus eaque architecto doloribus, animi praesentium quibusdam repellendus incidunt, 
+                        voluptates quaerat tenetur! Impedit suscipit animi laboriosam veniam, enim exercitationem rem odit? 
+                        Architecto veritatis, unde adipisci autem aliquam non sint voluptatem quas in. Ipsam possimus perspiciatis 
+                        deleniti veniam iure earum iste voluptas optio, quidem totam reprehenderit facilis aut veritatis ut suscipit
+                        repudiandae laboriosam sapiente. Impedit necessitatibus placeat, omnis minima nobis odio sequi corrupti error 
+                        repudiandae. Consectetur, laboriosam ullam fugiat optio, 
+                        ut omnis neque aut nostrum fuga totam necessitatibus quasi debitis excepturi, 
+                        repudiandae ducimus provident maxime? Sit, velit aperiam?
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="container" id="contact-id">
+            <h2>CONTACT US</h2>
+            <form action="{% url 'index' %}" method="post">
+                {% csrf_token %}
+                <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        {{ form.first_name }}
+                        <span class="text">First Name</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="inputBox">
+                        {{ form.last_name }}
+                        <span class="text">Last Name</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="inputBox">
+                        {{ form.email }}
+                        <span class="text">Email</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="inputBox">
+                        {{ form.mobile }}
+                        <span class="text">Mobile</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox textarea">
+                        {{ form.message }}
+                        <span class="text">Type your message here ...</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            </form>
+
+
+        </div>
+
+        
+        <div class="testimonials" id="testimonal">
+            <h2>Testimonials</h2>
+            <div class="center">
+                <div class="test-container">
+                    <div class="test-card">
+                        <div class="contents">
+                            <div class="comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quam dolore 
+                                    delectus aspernatur debitis, vero sequi unde animi voluptatem culpa?
+                                </p>
+                            </div>
+                            <div class="image">
+                                <img src="slide.jpg" alt="">
+                            </div>
+                            <div class="name-box">
+                                <h3>Adesiyan Temitope</h3>
+                                <p>Website Designer</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="contents">
+                            <div class="comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quam dolore 
+                                    delectus aspernatur debitis, vero sequi unde animi voluptatem culpa?
+                                </p>
+                            </div>
+                            <div class="image">
+                                <img src="slide.jpg" alt="">
+                            </div>
+                            <div class="name-box">
+                                <h3>Adesiyan Temitope</h3>
+                                <p>Website Designer</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <div class="contents">
+                            <div class="comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quam dolore 
+                                    delectus aspernatur debitis, vero sequi unde animi voluptatem culpa?
+                                </p>
+                            </div>
+                            <div class="image">
+                                <img src="slide.jpg" alt="">
+                            </div>
+                            <div class="name-box">
+                                <h3>Adesiyan Temitope</h3>
+                                <p>Website Designer</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="details">
+                    <h3>TCODES</h3>
+                    <div class="footer-icons">
+                        <div class="w-template">
+
+                        </div>
+                        <div class="t-template">
+
+                        </div>
+                        <div class="i-template">
+
+                        </div>
+                        <div class="l-template">
+
+                        </div>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h3>Our Newsletter</h3>
+                    <p>Enter your email and get the latest update and offers from us</p>
+                    <form action="" method="POST">
+                        <input type="text" placeholder="Email" id="news">
+                        <button type="submit" id="news-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="{% static 'js/all.js' %}"></script>
+    <script src="{% static 'js/all.min.js' %}"></script>
+    <script src="{% static 'js/brands.js' %}"></script>
+    <script src="{% static 'js/brands.min.js' %}"></script>
+    <script src="{% static 'js/fontawesome.js' %}"></script>
+    <script src="{% static 'js/fontawesome.min.js' %}"></script>
+    <script src="{% static 'js/regular.js' %}"></script>
+    <script src="{% static 'js/regular.min.js' %}"></script>
+    <script src="{% static 'js/solid.js' %}"></script>
+    <script src="{% static 'js/solid.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

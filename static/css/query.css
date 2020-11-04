@@ -1,0 +1,375 @@
+@media only screen and (max-width:1440px) {
+    .contents {
+        padding-top: 60px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:1024px) {
+    .face {
+        width: 300px;
+        height: 250px;
+    }
+    .content p {
+        font-size: 1.1rem;
+    }
+    .test-container {
+        padding: 30px 50px;
+
+    }
+    .testimonials .test-container .test-card .comment h3 {
+        font-size: 3.5rem;
+    }
+    .test-container {
+        column-gap: 10px;
+        padding: 30px 20px;
+    }
+    .contents {
+        padding-top: 70px;
+    }
+    .testimonials .test-container .test-card:hover .comment h3 {
+        top: 0px;
+    }
+    .fa-facebook, .fa-whatsapp, .fa-twitter, .fa-linkedin, .fa-instagram {
+        font-size: 1.5rem;
+        margin-bottom: .7rem;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    .navlist {
+        display: block;
+
+     }
+
+     .navlink {
+         font-size: 1.6rem;
+         line-height: 65px;
+         padding-bottom: 12px;
+         display: inline-block;
+         margin-right: 0;
+
+     }
+
+     .navlink:hover:after {
+        width: 100%;
+    }
+    .navlink:after {
+        bottom: 15px;
+    }
+
+     .navlink:before {
+        opacity: 0;
+    }
+
+     nav {
+         display: block;
+     }
+
+     header {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .logo-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 19px;
+    }
+
+    .logo-list {
+        margin: 0 auto;
+        text-align: center;
+        display: none;
+    }
+    .hero {
+        top: 210px;
+    }
+    .toggle {
+        display: block;
+        width: 57px;
+        height: 55px;
+        background: #232323;
+        position: absolute;
+        top: 20px;
+        border-radius: 50%;
+        right: 30px;
+    }
+
+    .bars, .times {
+        display: block;
+        top: 10px;
+        right: 12px;
+        cursor: pointer;
+        transition: .7s;
+        font-size: .3rem;
+    }
+
+    .times {
+        display: none;
+        right: 15px;
+    }
+
+    .logo {
+        font-size: 29px;
+    }
+
+    .navlink {
+        font-size: 15px;
+    }
+    .team-area, .services {
+        flex-direction: column;
+        row-gap: 35px;
+    }
+    .hero {
+        width: 100%;
+        line-height: 1.7rem;
+        font-size: 16px;
+    }
+
+    .footer a {
+        padding: 10px 20px;
+    }
+    .container {
+        padding: 60px 100px;
+    }
+    .test-container {
+        padding: 30px 50px;
+        display: block;
+    }
+    .about-container {
+        width: 80%;
+        padding: 40px 10px;
+    }
+    .testimonials .test-container .test-card .comment h3 {
+        display: none;
+    }
+    .testimonials .test-container .test-card:hover .comment h3 {
+        top: 0px;
+    }
+    .contents p {
+        font-weight: 300;
+        font-size: 1.49rem;
+    }
+
+    .test-card {
+        margin-bottom: 35px;
+        width: 480px;
+        height: 400px;
+        display: block;
+        position: relative;
+    }
+    .center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contents {
+        padding-top: 30px;
+    }
+    .hero .text {
+        margin-bottom: 6rem;
+    }
+    .hero {
+        width: 80%;
+        line-height: 1.7rem;
+        font-size: 16px;
+    }
+    .hero .title {
+        margin-bottom: 33px;
+    }
+    .face {
+        width: 400px;
+        height: 250px;
+    }
+    .footer-container {
+        display: block;
+    }
+    .newsletter {
+        margin-top: 140px;
+    }
+}
+
+
+@media only screen and (max-width:540px) {
+
+    .contents {
+    padding-top: 100px;
+    }
+
+    .test-card {
+        width: 370px;
+        height: 400px;
+    }
+    .comment p {
+        font-size: 1.2rem;
+    }
+    .container {
+        padding: 60px 50px;
+    }
+    .face {
+        width: 350px;
+        height: 250px;
+    }
+    .name-box p {
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+    .container h2 {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+    .name-box h3 {
+        font-weight: 300;
+        color: rgb(15, 0, 3);
+    }
+    .footer-container {
+        padding: 0 70px;
+    }
+
+    #news {
+        font-size: 15px;
+    }
+
+
+    #news-submit {
+        font-size: 15px;
+
+    }
+}
+
+
+@media only screen and (max-width:425px) {
+    footer {
+        font-size: 15px;
+     }
+
+    .test-card {
+        width: 300px;
+        height: 400px;
+    }
+    .face {
+        width: 250px;
+        height: 250px;
+    }
+    .face-2 .content a {
+        border: 1.2px solid #cf4218;
+        padding: .2rem .4rem;
+        transition: all .6s;
+        display: inline-block;
+    }
+    .face-2 .content p {
+        font-size: .84rem;
+    }
+    .face-1 .content p {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (max-width:414px) {
+    .test-card {
+        width: 300px;
+        height: 400px;
+    }
+    .face {
+        width: 250px;
+        height: 250px;
+    }
+    .face-2 .content a {
+        border: 1.2px solid #cf4218;
+        padding: .2rem .4rem;
+        transition: all .6s;
+        display: inline-block;
+    }
+    .face-2 .content p {
+        font-size: .84rem;
+    }
+    .face-1 .content p {
+        font-size: 1.2rem;
+    }
+    .fa-info-circle{
+        font-size: 5.5rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    footer {
+        font-size: 14px;
+     }
+
+
+    .face {
+        width: 290px;
+
+    }
+    .face-2 .content p {
+        font-size: 1rem;
+    }
+    .social {
+        right: 15px;
+    }
+    .footer a {
+        padding: 10px 10px;
+    }
+    .face {
+        width: 280px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .toggle {
+        width: 57px;
+        right: 0px;
+    }
+
+    .bars, .times {
+        top: 10px;
+        right: 14px;
+        font-size: .1rem;
+    }
+    .footer a {
+        padding: 15px 3px;
+    }
+    .services {
+
+        row-gap: 20px;
+    }
+    .face {
+        width: 270px;
+        height: 250px;
+    }
+    .card .face-2 {
+        padding: 20px;
+    }
+    .test-container {
+        padding: 30px 10px;
+        display: block;
+    }
+    .test-card {
+        width: 230px;
+        height: 400px;
+    }
+    .contents {
+        padding-top: 10px;
+    }
+    .comment p {
+        font-size: 1.1rem;
+    }
+}
+
+
+
