@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '@x3(gch0m0u#c_xmh+i4&xd7^k9yw1t2+qr^ke+&hkfs$rpmg!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.']
 
 
 # Application definition
